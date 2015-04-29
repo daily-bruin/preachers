@@ -1,3 +1,28 @@
 a.thumbnail:hover img {
 	opacity: .6;
 }
+
+.header-unit {
+  height: 690px;
+  border-right:none;
+  border-left: none;
+  position: relative;
+ padding: 0x; 
+}
+#video-container {
+    position: absolute;
+}
+#video-container {
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+video {
+    position:absolute;
+    z-index:0;
+}
+video.fillWidth {
+    width: 100%;
+}
