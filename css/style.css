@@ -11,13 +11,12 @@ a.thumbnail:hover img {
 }
 #video-container {
     position: absolute;
-}
-#video-container {
     top:0%;
     left:0%;
     height:100%;
     width:100%;
     overflow: hidden;
+    z-index:0;
 }
 video {
     position:absolute;
@@ -61,3 +60,8 @@ video.fillWidth {
   margin-bottom: 10px;
 }
 
+.nameplate {
+  display: block;
+  padding: 10px;
+  z-index: 100;
+}
