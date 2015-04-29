@@ -7,7 +7,7 @@ a.thumbnail:hover img {
   border-right:none;
   border-left: none;
   position: relative;
- padding: 0x; 
+  padding: 0x; 
 }
 #video-container {
     position: absolute;
@@ -16,11 +16,9 @@ a.thumbnail:hover img {
     height:100%;
     width:100%;
     overflow: hidden;
-    z-index:0;
 }
 video {
     position:absolute;
-    z-index:0;
 }
 video.fillWidth {
     width: 100%;
@@ -64,4 +62,5 @@ video.fillWidth {
   display: block;
   padding: 10px;
   z-index: 100;
+  position: absolute;
 }
