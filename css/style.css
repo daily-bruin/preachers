@@ -42,7 +42,9 @@ video.fillWidth {
 .thumbnail .caption {
   font-size: 11px;
   font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-weight: 300;
 }
+
 
 #person1, #person2, #person3 {
     font-size: 14px;
