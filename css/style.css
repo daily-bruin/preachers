@@ -26,3 +26,25 @@ video {
 video.fillWidth {
     width: 100%;
 }
+
+#mion {
+  float: right;
+  width: 40%;
+  margin: 0 0 20px 20px;
+}
+
+#mion-blurb p {
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-size:13px;
+  font-weight: 300;
+}
+
+.thumbnail .caption {
+  font-size: 11px;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+
+.collapse p {
+    font-size: 14px;
+    margin-bottom:20px;
+}
