@@ -44,7 +44,18 @@ video.fillWidth {
   font-family: "Roboto",Helvetica,Arial,sans-serif;
 }
 
-.collapse p {
+#person1, #person2, #person3 {
     font-size: 14px;
     margin-bottom:20px;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    background: #f6f6f6;
+    padding: 20px;
 }
+
+#person1 h3, #person2 h3, #person3 h3 {
+  border-bottom: 1px solid #ddd;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+

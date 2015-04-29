@@ -188,7 +188,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
 }
@@ -271,9 +271,5 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-.collapse p {
-    font-size: 14px;
-    margin-bottom:20px;
-}
 
 
